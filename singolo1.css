@@ -69,7 +69,7 @@ a:not(:last-child)::after {
 .Slider {
 
    
-   	 display: table;
+   	display: table;
 	margin: auto ;
 	width: 1020px;
 	height: 600px;
