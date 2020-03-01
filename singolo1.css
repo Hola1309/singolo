@@ -75,22 +75,22 @@ nav  {
    float:right;
    padding-top: 38px;
 }
-a:link {
-  color: #white; 
+nav a:link {
+  color: white; 
    
 }
-a:visited {
+nav a:visited {
   color: white;
 }
-a:hover {
+nav a:hover {
   color: #f06c64; 
   
 }
-a:active {
+nav a:active {
   color: #f06c64; 
   
 }
-a {text-decoration: none;
+nav a {text-decoration: none;
 font-family: "Lato Regular", serif;
 font-size: 12px;
 
@@ -98,7 +98,7 @@ font-size: 12px;
 
 }
 
-a:not(:last-child)::after {
+nav a:not(:last-child)::after {
     content: "\2022";
     font-size: 12px;
     color: #494e62;
@@ -201,3 +201,56 @@ a:not(:last-child)::after {
     margin-bottom: -4px;
     margin-top: 10px;
 }
+.pf {
+    font-size: 1em;
+    letter-spacing: 0.4px;
+    width: 1020px;
+    height: 864px;
+    background-color: #2d303a;
+    margin: auto;
+    font-family: 'Lato-Thin', sans-serif;
+    color: #666d89;
+}
+.pfbot {
+
+    width: 1020px;
+    height: 7px;
+    background-color: #323746;
+    margin: auto;
+}
+.art {
+    
+    width: 220px;
+    height: 187px;
+
+}
+.art_gallery{
+    padding-top: 19px;
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.filter button {
+    text-decoration: none;
+    color: #666d89;
+    background-color: transparent;
+    border: 1px solid #666d89;
+     border-radius: 5px;
+     font-size: 12px;
+}
+
+
+.filter button:hover {
+    color: white;
+    border: 1px solid #c5c5c5;
+     border-radius: 5px;
+}
+.f{
+    line-height: 18px;
+    margin-right: 7px;
+}
+
+
+
