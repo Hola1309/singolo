@@ -208,7 +208,7 @@ nav a:not(:last-child)::after {
     height: 864px;
     background-color: #2d303a;
     margin: auto;
-    font-family: 'Lato-Thin', sans-serif;
+    
     color: #666d89;
 }
 .pfbot {
@@ -233,6 +233,7 @@ nav a:not(:last-child)::after {
     grid-row-gap: 20px;
 }
 .filter button {
+    font-family: Lato Light, monospace;
     text-decoration: none;
     color: #666d89;
     background-color: transparent;
@@ -251,6 +252,47 @@ nav a:not(:last-child)::after {
     line-height: 18px;
     margin-right: 7px;
 }
+.about_us{
+    width: 1020px;
+    height: 728px;
+    background-color: #f2f2f2;
+    margin: auto;
+}
+.about_us_bot{
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+    margin: auto;
+}
+.us {
 
+    padding-top: 50px;
 
+    padding-left: 40px;
+    display: grid;
+grid-template-columns: 300px 300px 300px;
+grid-column-gap: 20px;
+}
+.name{
+    padding-top: 9px;
+    font-family: Lato Black, monospace;
+    font-size: 18px;
+
+}
+.info{
+    padding-top: 10px;
+    letter-spacing: 0.08px;
+    font-family: Lato Light, monospace;
+    font-size: 12px;
+
+}
+.links {
+    
+    padding-top: 28px;
+}
+.links img:hover {
+    
+     border-radius: 15px;
+     box-shadow: 0 0 7px rgba(0,0,0,0.5);
+}
 
