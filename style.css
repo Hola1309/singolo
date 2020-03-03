@@ -320,25 +320,25 @@ grid-column-gap: 20px;
     letter-spacing: 0.08px;
     font-family: Lato Light, monospace;
     font-size: 12px;
-
+    padding-left:10px;box-sizing:border-box;
 
 }
-.bigone {
+.bigone input{
     margin-bottom: 16px;
-    height: 200px;
+    padding: 15px 15px 190px 10px;
 }
 
 .quote input::placeholder{
     position: relative;
 
-    transform: translateX(15px);
+   
     letter-spacing: 0.08px;
     font-family: Lato Light, monospace;
     font-size: 12px;
     color: #f48c8f;
 }
 .bigone input::placeholder {
-    top: -83px; 
+    
 }
 .quote button {
     background-color: #d6564f;
