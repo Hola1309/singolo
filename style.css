@@ -267,7 +267,7 @@ nav a:not(:last-child)::after {
 }
 .f{
     line-height: 18px;
-    margin-right: 7px;
+    margin-right: 8px;
 }
 .about_us{
     width: 1020px;
@@ -325,7 +325,7 @@ grid-column-gap: 20px;
     margin: auto;
 }
 .quote input {
-    margin-bottom: 16px;
+    margin-bottom: 17px;
     border: none;
     border-radius: 5px;
     height: 36px;
@@ -337,12 +337,12 @@ grid-column-gap: 20px;
     letter-spacing: 0.08px;
     font-family: Lato Light, monospace;
     font-size: 12px;
-    padding-left:10px;box-sizing:border-box;
+    padding-left:14px;box-sizing:border-box;
 
 }
 .bigone input{
-    margin-bottom: 16px;
-    padding: 15px 15px 190px 10px;
+    margin-bottom: 17px;
+    padding: 18px 15px 185px 15px;
 }
 
 .quote input::placeholder{
@@ -376,7 +376,7 @@ grid-column-gap: 20px;
 
     margin-right: 42px;
 
-    margin-top: 48px;
+    margin-top: 46px;
 
 }
 .cont_inf a{
