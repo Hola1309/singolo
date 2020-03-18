@@ -4,45 +4,44 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
+	
+<div id="get" class="gethid"><div class="formget"><span style="padding-left: 25px;">Письмо отправлено</span><br><div style="margin-left: 25px;"><span class="sub" id="subreturn"></span><br><span class="dis" id="disreturn"></span><br><button id="close">OK</button></div></div></div>
 	<header>
+		<a name="home"></a>
 		<div class="headerMain"><div class="logo">SINGOLO<div style="color: #f06c64;display: inline; ">*</div></div>
 		
-		<nav><a href="">HOME</a><a href="">SERVICES</a><a href="">PORTFOLIO</a><a href="">ABOUT</a><a href="">CONTACT</a></nav>
+		<nav><a href="#home">HOME</a><a href="#services">SERVICES</a><a href="#portfolio">PORTFOLIO</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a></nav>
 	</header>
-	<div class="headerBot"></div>
-	<div class="Slider">
+	<div class="headerBot"></div><div class="SliderBot"></div>
+	<div class="canvas"><div class="phone1" id="phon1"></div><div class="phone2" id="phon2"></div><img src="assets/chev.png" class="strlk" id="strlkL"><img src="assets/chev.png" class="strlk1" id="strlkR"><canvas id="canvas" width="1020" height="595">!!!!!</canvas></div>
+	<!--<div id="sl" class="Slider" >
 
-	<div  class="strlk" style="display: table-cell;
-  vertical-align: middle; padding-left: 43px;"><img src="assets/chev.png" style=""></div>
+	<div  class="strlk" ><img src="assets/chev.png" id="strlkL"></div>
 
-  <table style="
-    padding-left: 50px;
-    padding-right: 54px;
-    padding-top: 51px;
-    border-bottom-width: 53px;
-">
-  <tr>
-    <td><img src="assets/iPhoneVertical.png" class="iphone iphone-vertical" alt="iphone"></td>
-    <td style="
-    
-    padding-left: 69px;
-    padding-top: 3px;
-
-"><img src="assets/iPhoneHorizontal.png" class="iphone iphone-horizontal" alt="iphone"></td>
-  </tr>
-</table>
-
-  
-
-  <div class="strlk" style="display: table-cell;vertical-align: middle;padding-right: 40px;">
-  <img src="assets/chev.png" style="transform: scale(-1, 1);"></div>
+<div class="slid1">
+	<div ><img src="assets/iPhoneVertical.png" class="phonever" id="phonv" alt="iphone"></div>
+	<div><img src="assets/iPhoneHorizontal.png" class="phonehor" id="phonh" alt="iphone"></div>
+	<div id="off" ></div>
+	<div id="offh" ></div>
 </div>
 
-  <div class="SliderBot"></div>
-  <div class="services-block">
-  	
+<div class="slid2">
+	<div><img src="assets/phone-vertical2.png" class="phonesmall"  alt="iphone"></div>
+	<div><img src="assets/phone-vertical2.png" class="phonebig"  alt="iphone"></div>
+	<div><img src="assets/phone-vertical2.png" class="phonesmall"  alt="iphone"></div>
+</div>
+ 
+
+  <div class="strlk2" >
+  <img src="assets/chev.png"  id="strlkR"></div>
+</div>-->
+
+  
+  <div  class="services-block">
+  	<a name="services"></a>
         <h1>Our Services</h1>
         <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor</p>
         <p>ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
@@ -94,15 +93,12 @@
         </div>
 
     </div>
-    <div class="services-bg-line" style="width: 1020px;
-    height: 6px;
-    background-color: white;
-    margin: auto;"></div>
+    <div class="services-bg-line" ></div>
     <div class="pf">
-        <div style="font-family: Lato Black, monospace;
-    font-size: 30px; padding-left: 40px; padding-top: 60px;">Portfolio</div>
-            <div style="padding-left: 40px; padding-top: 24px; letter-spacing: 0.8px;">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</div>
-            <div class="filter" style="padding-left: 40px; padding-top: 15px;">
+    	<a name="portfolio"></a>
+        <div class="Pfh1">Portfolio</div>
+            <div class="Pfdis">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</div>
+            <div class="filter" >
                 <button class="f">All</button>
                 <button class="f">Web Design</button>
                 <button class="f">Graphic Design</button>
@@ -131,53 +127,42 @@
         
     </div>
     <div class="pfbot"></div>
-    <div class="about_us" style=" color: #666d89;">
-        <div style="font-family: Lato Black, monospace;font-size: 30px; padding-left: 40px; padding-top: 60px;">About Us</div>
-        <div style="padding-left: 40px; padding-top: 20px; font-size: 1.1em;
-
-font-family: Lato Light, monospace;">
-            <div style="width: 940px;text-align: justify;
-  -moz-text-align-last: justify;
-  text-align-last: justify;height: 21px;overflow: hidden;">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor</div>
-            <div style="padding-top: 10px; letter-spacing: 0.16px;width: 940px;overflow: hidden;height: 21px;">ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</div>
+    <a name="about"></a>
+    <div class="about_us" >
+        <div class="Abh1">About Us</div>
+        <div class="Abdis" >
+            <div >Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</div>
         </div>
         <div class="us">
-            <div><img src="assets/photo1.png"><div style="height:23px; overflow: hidden;" class="name">Adam Jensen</div><div class="info"><div style="width: 300px; height: 30px; text-align: justify;line-height: 20px;padding-bottom: 5px;overflow: hidden;">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</div></div><div class="links">
-                <a href="" style="padding-right: 5px;"><img src="assets/f.png"></a>
-                <a href="" style="padding-right: 5px;"><img src="assets/g.png"></a>
-                <a href="" style="padding-right: 5px;"><img src="assets/t.png"></a>
+            <div><img src="assets/photo1.png"><div  class="name">Adam Jensen</div><div class="info"><div>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</div></div><div class="links">
+                <a href="" ><img src="assets/f.png"></a>
+                <a href="" ><img src="assets/g.png"></a>
+                <a href="" ><img src="assets/t.png"></a>
                 <a href="" ><img src="assets/l.png"></a>
             </div></div>
-            <div><img src="assets/photo2.png"><div style="height:23px; overflow: hidden;" class="name">Desmond Miles</div><div class="info"><div style="width: 300px; height: 30px; text-align: justify;line-height: 20px;padding-bottom: 5px;overflow: hidden;">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</div></div><div class="links">
-                <a href="" style="padding-right: 5px;"><img src="assets/f.png"></a>
-                <a href="" style="padding-right: 5px;"><img src="assets/g.png"></a>
-                <a href="" style="padding-right: 5px;"><img src="assets/t.png"></a>
+            <div><img src="assets/photo2.png"><div  class="name">Desmond Miles</div><div class="info"><div >Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</div></div><div class="links">
+                <a href="" ><img src="assets/f.png"></a>
+                <a href="" ><img src="assets/g.png"></a>
+                <a href="" ><img src="assets/t.png"></a>
                 <a href="" ><img src="assets/l.png"></a>
-            </div></div><div><img src="assets/photo3.png"><div style="height:23px; overflow: hidden;" class="name">Scolara Visari</div><div class="info"><div style="width: 300px; height: 30px; text-align: justify;line-height: 20px;padding-bottom: 5px;overflow: hidden;">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</div></div><div class="links">
-                <a href="" style="padding-right: 5px;"><img src="assets/f.png"></a>
-                <a href="" style="padding-right: 5px;"><img src="assets/g.png"></a>
-                <a href="" style="padding-right: 5px;"><img src="assets/t.png"></a>
+            </div></div><div><img src="assets/photo3.png"><div  class="name">Scolara Visari</div><div class="info"><div >Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</div></div><div class="links">
+                <a href="" ><img src="assets/f.png"></a>
+                <a href="" ><img src="assets/g.png"></a>
+                <a href="" ><img src="assets/t.png"></a>
                 <a href="" ><img src="assets/l.png"></a>
             </div></div>
         </div>
     </div>
     <div class="about_us_bot"></div>
-    <div class="quote" style="color: #f0d8d9">
-        <div style="font-family: Lato Black, monospace;font-size: 30px; padding-left: 40px; padding-top: 60px;">Get a Quote
-</div>
-        <div style="padding-left: 40px; padding-top: 20px; font-size: 1.1em;
 
-font-family: Lato Light, monospace;">
-            <div style="width: 940px;text-align: justify;
-  -moz-text-align-last: justify;
-  text-align-last: justify;height: 21px;overflow: hidden;">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor</div>
-            <div style="padding-top: 10px; letter-spacing: 0.16px;width: 940px;overflow: hidden;height: 21px;">ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</div>
-            <div style="float: left;">
-            <form><input type="text" name="name" style="margin-top: 50px;" placeholder="Name (Required)" required /></form>
-            <form><input type="text" name="email" placeholder="Email (Required)" required /></form>
-            <form><input type="text"  placeholder="Subject"  /></form>
-            <form class="bigone"><input  type="text"   placeholder="Describe your project in detail..."  /></form>
-            <form><button type="submit">Submit</button></form>
+    <a name="contact"></a>
+    <div class="quote" >
+        <div  class="Qh1" >Get a Quote
+</div>
+        <div class="sho" >
+            <div class="Qdis" >Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</div>
+            <div style="float: left; width: 600px;">
+            <form><input type="text" name="name" style="margin-top: 50px;" placeholder="Name (Required)"  required /><br><input name="email" type="text"  placeholder="Email (Required)"  required/><br><input type="text"  placeholder="Subject" id="sub" /><input id="dis" class="big" type="text"   placeholder="Describe your project in detail..."  /><br></form><button id="send" >Submit</button>
         </div>
 <div class="cont_inf">
     <div style="font-family: Lato Black, monospace; font-size: 18px; padding-bottom: 10px;">Contact information</div>
@@ -208,4 +193,6 @@ font-family: Lato Light, monospace;">
             </div></footer>
 
 </body>
+<script src="script.js"></script>
+
 </html>

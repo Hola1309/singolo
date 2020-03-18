@@ -124,11 +124,22 @@ nav a:not(:last-child)::after {
 	height: 595px;
 	background-color:  #f06c64;
 }
+.Slider2 {
+
+   
+    display: table;
+    margin: auto ;
+    width: 1020px;
+    height: 595px;
+    background-color:  #648bf0;
+}
 .SliderBot{
-	margin: auto;
+    position: absolute;
+	margin-top: 594px;
+    margin-left: 441.500px;
     
 	width: 1020px;
-	height: 5px;
+	height: 6px;
 	background: #ea676b;
 }
 .services-block h1 {
@@ -161,7 +172,7 @@ nav a:not(:last-child)::after {
 	margin: auto;
     
 	width: 940px;
-    position: relative;
+
     font-family: Lato Light, monospace;
     height: 426px;
     color: #666d89;
@@ -270,6 +281,7 @@ nav a:not(:last-child)::after {
     margin-right: 8px;
 }
 .about_us{
+     color: #666d89;
     width: 1020px;
     height: 728px;
     background-color: #f2f2f2;
@@ -291,12 +303,14 @@ grid-template-columns: 300px 300px 300px;
 grid-column-gap: 20px;
 }
 .name{
+    height:23px; overflow: hidden;
     padding-top: 9px;
     font-family: Lato Black, monospace;
     font-size: 18px;
 
 }
 .info{
+    width: 300px; height: 30px; text-align: justify;line-height: 20px;padding-bottom: 5px;overflow: hidden;
     padding-top: 8px;
     letter-spacing: 0.08px;
     font-family: Lato Light, monospace;
@@ -317,6 +331,7 @@ grid-column-gap: 20px;
     height: 648px;
     background-color: #f06c64;
     margin: auto;
+    color: #f0d8d9
 }
 .quotebot {
     width: 1020px;
@@ -407,13 +422,209 @@ footer .links {
     padding-top: 22px;
     padding-right: 40px;
 }
-.strlk img:hover {
+.strlk:hover {
     border-radius: 20px;
-     box-shadow: 0 0 20px white;
+     box-shadow: 0 0 20px #000000FF;
 }
 .services-columns p{
     text-align: justify;
     width: 220px;
     height: 64px;
     overflow: hidden;
+}
+.Slider table {
+    padding-left: 50px;
+    padding-right: 54px;
+    padding-top: 51px;
+    border-bottom-width: 53px;
+} 
+.Slider .table1 td:nth-child(2) {
+    padding-left: 69px;
+    padding-top: 3px;
+}
+.strlk{
+    margin-left: 40px;
+    margin-top: 284px;
+    position: absolute;
+}
+
+.strlk1:hover {
+    border-radius: 20px;
+     box-shadow: 0 0 20px black;
+}
+.strlk1 {
+    margin-left: 960px;
+    margin-top: 284px;
+    position: absolute;
+    transform: scale(-1, 1);
+}
+.services-bg-line {
+    width: 1020px;
+    height: 6px;
+    background-color: white;
+    margin: auto;
+}
+.Pfh1 {
+    font-family: Lato Black, monospace;
+    font-size: 30px; padding-left: 40px; padding-top: 60px;
+}
+.Pfdis {
+    padding-left: 40px; padding-top: 24px; letter-spacing: 0.8px;
+}
+.filter {
+    padding-left: 40px; padding-top: 15px;
+}
+.Abh1 {
+    font-family: Lato Black, monospace;font-size: 30px; padding-left: 40px; padding-top: 60px;
+}
+.Abdis{
+    padding-left: 40px; padding-top: 20px; font-size: 1.1em;
+
+font-family: Lato Light, monospace;
+text-align: justify;
+  -moz-text-align-last: justify;
+  text-align-last: justify;
+  width: 940px;height: 52px;overflow: hidden;
+}
+.links a{
+    padding-right: 5px;
+}
+.Qh1 {
+    font-family: Lato Black, monospace;font-size: 30px; padding-left: 40px; padding-top: 60px;
+}
+.Qdis {
+    
+    width: 940px;text-align: justify;
+  -moz-text-align-last: justify;
+  text-align-last: justify;height: 50px;overflow: hidden;
+}
+.sho {
+    padding-left: 40px; padding-top: 20px; font-size: 1.1em;
+
+font-family: Lato Light, monospace;
+}
+.slid2 {
+    padding-left: 186px;
+   
+    grid-template-rows: 0px ;
+    display: grid;
+    grid-template-columns: 140px 229px 140px;
+    
+}
+.slid1 {
+    padding-left: 49px;
+    padding-top: 53px;
+    grid-template-rows: 0px ;
+    display: grid;
+    grid-template-columns: 240px 490px;
+    grid-column-gap: 75px;
+}
+.Slider2 .phonesmall{
+    width: 156px;height: 314px; padding-top: 109px;opacity: 0.5
+}
+.Slider .phonesmall {
+    height: 0px;
+}
+
+.Slider .phonebig {
+    height: 0px;
+}
+.Slider .phonehor {
+   
+    padding-top: 122px;
+}
+.Slider2 .phonehor{
+    height: 0px;
+}
+.Slider2 .phonever{
+    height: 0px;
+}
+.phoneoff {
+    margin-top: 65px;
+    margin-left: 14px;
+    width: 189px;
+    height: 334px;
+    position: absolute;
+    background-color: black;
+}
+.phoneoffh {
+    margin-left: 375px;
+    margin-top: 136px;
+    width: 334px;
+    height: 189px;
+    position: absolute;
+    background-color: black;
+}
+.get {
+
+    word-wrap: break-word;
+    font-family: Lato Light, monospace;
+    color: #f0d8d9;
+    position: fixed;
+    float: left;
+}
+.big {
+    margin-bottom: 17px;
+    padding: 18px 15px 185px 15px;
+
+}
+.get .formget {
+    border-radius: 5px;
+    background-color: #f06c64;
+    position: absolute;
+    width:250px;
+    height: 250px;
+    
+}
+.get .formget button {
+    color: #f0d8d9;
+    border: none;
+    background-color: #d6564f;
+    border-radius: 5px;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    margin-left: 75px;
+    margin-top: 152px;
+}
+.gethid{
+    display: none;
+}
+.sub {border-radius: 5px;
+    margin-top: 5px;
+    background-color: #d6564f;
+    position: absolute;
+    height: 20px;
+    width: 195px;
+    overflow: hidden;
+    
+}
+.dis {border-radius: 5px;
+    background-color: #d6564f;
+    text-align: justify;
+    margin-top: 10px;
+    position: absolute;
+    height: 150px;
+    width: 195px;
+    overflow: hidden;
+   
+}
+.canvas {
+    margin: auto ;
+    width: 1020px;
+    height: 595px;
+}
+.phone1 {
+    width: 216px;
+    height: 458px;
+    position: absolute;
+    margin-top: 54px;
+    margin-left: 110px;
+}
+.phone2 {
+    width: 458px;
+    height: 216px;
+    position: absolute;
+    margin-top: 174px;
+    margin-left: 425px;
 }
