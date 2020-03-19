@@ -50,7 +50,7 @@ body{
 	margin: auto;
     
 	width: 1020px;
-	height: 5px;
+	height: 7px;
 	background: #323746;
 }
 .headerMain{
@@ -134,10 +134,8 @@ nav a:not(:last-child)::after {
     background-color:  #648bf0;
 }
 .SliderBot{
-    position: absolute;
-	margin-top: 594px;
-    margin-left: 441.500px;
-    
+ 
+	margin: auto;
 	width: 1020px;
 	height: 6px;
 	background: #ea676b;
@@ -258,6 +256,10 @@ nav a:not(:last-child)::after {
     grid-template-columns: 220px 220px 220px 220px;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
+
+    padding-right: 40px;
+    padding-bottom: 40px;
+
 
 }
 .filter button {
@@ -473,6 +475,7 @@ footer .links {
 }
 .filter {
     padding-left: 40px; padding-top: 15px;
+    width: 296px;
 }
 .Abh1 {
     font-family: Lato Black, monospace;font-size: 30px; padding-left: 40px; padding-top: 60px;
@@ -612,7 +615,7 @@ font-family: Lato Light, monospace;
 .canvas {
     margin: auto ;
     width: 1020px;
-    height: 595px;
+    height: 593px;
 }
 .phone1 {
     width: 216px;
@@ -627,4 +630,8 @@ font-family: Lato Light, monospace;
     position: absolute;
     margin-top: 174px;
     margin-left: 425px;
+}
+.artActive {
+    outline: 5px solid #F06C64 ;
+
 }

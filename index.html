@@ -15,8 +15,8 @@
 		
 		<nav><a href="#home">HOME</a><a href="#services">SERVICES</a><a href="#portfolio">PORTFOLIO</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a></nav>
 	</header>
-	<div class="headerBot"></div><div class="SliderBot"></div>
-	<div class="canvas"><div class="phone1" id="phon1"></div><div class="phone2" id="phon2"></div><img src="assets/chev.png" class="strlk" id="strlkL"><img src="assets/chev.png" class="strlk1" id="strlkR"><canvas id="canvas" width="1020" height="595">!!!!!</canvas></div>
+	<div class="headerBot"></div>
+	<div class="canvas"><div class="phone1" id="phon1"></div><div class="phone2" id="phon2"></div><img src="assets/chev.png" class="strlk" id="strlkL"><img src="assets/chev.png" class="strlk1" id="strlkR"><canvas id="canvas" width="1020" height="595">!!!!!</canvas></div><div class="SliderBot"></div>
 	<!--<div id="sl" class="Slider" >
 
 	<div  class="strlk" ><img src="assets/chev.png" id="strlkL"></div>
@@ -98,30 +98,27 @@
     	<a name="portfolio"></a>
         <div class="Pfh1">Portfolio</div>
             <div class="Pfdis">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</div>
-            <div class="filter" >
+            <div class="filter" id="filter">
                 <button class="f">All</button>
                 <button class="f">Web Design</button>
                 <button class="f">Graphic Design</button>
                 <button class="f">Artwork</button>
 
             </div>
-            <div class="art_gallery">
-                <img src="assets/Project1.png" alt="Picture" class="art">
-                <img src="assets/Project2.png" alt="Picture" class="art">
-                <img src="assets/Project3.png" alt="Picture" class="art">
-                <img src="assets/Project4.png" alt="Picture" class="art">
-                <img src="assets/Project5.png" alt="Picture" class="art">
-                <img src="assets/Project6.png" alt="Picture" class="art">
-                <img src="assets/Project7.png" alt="Picture" class="art">
-                <img src="assets/Project8.png" alt="Picture" class="art">
-                <img src="assets/Project9.png" alt="Picture" class="art">
-                <img src="assets/Project10.png" alt="Picture" class="art">
-                <img src="assets/Project11.png" alt="Picture" class="art">
-                <img src="assets/Project12.png" alt="Picture" class="art">
-                <img src="assets/Project12.png" alt="Picture" class="art">
-                <img src="assets/Project12.png" alt="Picture" class="art">
-                <img src="assets/Project12.png" alt="Picture" class="art">
-
+            <div class="art_gallery" id="artG">
+                <div><img src="assets/Project1.png" alt="Picture" id="pic1" class="artActive"></div>
+                <div><img src="assets/Project2.png" alt="Picture" id="pic2" class="art"></div>
+                <div><img src="assets/Project3.png" alt="Picture" id="pic3" class="art"></div>
+                <div><img src="assets/Project4.png" alt="Picture" id="pic4" class="art"></div>
+                <div><img src="assets/Project5.png" alt="Picture" id="pic5" class="art"></div>
+                <div><img src="assets/Project6.png" alt="Picture" id="pic6" class="art"></div>
+                <div><img src="assets/Project7.png" alt="Picture" id="pic7" class="art"></div>
+               	<div><img src="assets/Project8.png" alt="Picture" id="pic8" class="art"></div>
+               	<div><img src="assets/Project9.png" alt="Picture" id="pic9" class="art"></div>
+                <div><img src="assets/Project10.png" alt="Picture" id="pic10" class="art"></div>
+                <div><img src="assets/Project11.png" alt="Picture" id="pic11" class="art"></div>
+                <div><img src="assets/Project12.png" alt="Picture" id="pic12" class="art"></div>
+                
             </div>
         
         
@@ -162,7 +159,7 @@
         <div class="sho" >
             <div class="Qdis" >Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</div>
             <div style="float: left; width: 600px;">
-            <form><input type="text" name="name" style="margin-top: 50px;" placeholder="Name (Required)"  required /><br><input name="email" type="text"  placeholder="Email (Required)"  required/><br><input type="text"  placeholder="Subject" id="sub" /><input id="dis" class="big" type="text"   placeholder="Describe your project in detail..."  /><br></form><button id="send" >Submit</button>
+            <form><input type="text" name="name" style="margin-top: 50px;" placeholder="Name (Required)" id="name"  required /><br><input name="email" id="email" type="text"  placeholder="Email (Required)"  required/><br><input type="text"   placeholder="Subject" id="sub" /><input id="dis" class="big" type="text"   placeholder="Describe your project in detail..."  /><br></form><button id="send" >Submit</button>
         </div>
 <div class="cont_inf">
     <div style="font-family: Lato Black, monospace; font-size: 18px; padding-bottom: 10px;">Contact information</div>
