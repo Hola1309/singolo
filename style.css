@@ -652,7 +652,7 @@ font-family: Lato Light, monospace;
     display: none;
 }
 
-@media screen and (max-width: 1020px) {
+@media (max-width: 1020px) {
     .container{
         max-width: 767px;
         margin: auto;
@@ -798,7 +798,7 @@ footer {
     max-width: 767px;
 }
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .container{
         max-width: 375px;
         margin: auto;
