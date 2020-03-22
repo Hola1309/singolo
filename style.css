@@ -137,7 +137,7 @@ nav a:not(:last-child)::after {
  
 	margin: auto;
 	width: 1020px;
-	height: 6px;
+	height: 8px;
 	background: #ea676b;
 }
 .services-block h1 {
@@ -150,12 +150,13 @@ nav a:not(:last-child)::after {
     font-size: 30px;
 }
 .services-block > p:first-of-type {
+    line-height: 23px;
     word-spacing: 1.13px;
     margin-bottom: -2px;
     padding-top: 1px;
     text-align: justify;
     width: 940px;
-    height: 15px;
+    height: 65px;
     overflow: hidden;
 }
 .services-block > p {
@@ -255,7 +256,7 @@ nav a:not(:last-child)::after {
     display: grid;
     grid-template-columns: 220px 220px 220px 220px;
     grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-row-gap: 18px;
 
     padding-right: 40px;
     padding-bottom: 40px;
@@ -615,7 +616,7 @@ font-family: Lato Light, monospace;
 .canvas {
     margin: auto ;
     width: 1020px;
-    height: 593px;
+    height: 590px;
 }
 .phone1 {
     width: 216px;
@@ -635,3 +636,467 @@ font-family: Lato Light, monospace;
     outline: 5px solid #F06C64 ;
 
 }
+.container {
+    width: 1020px;
+    margin: auto;
+}
+.extra{
+    padding-bottom: 23px;width: 297px;overflow: hidden;text-align: justify;
+  -moz-text-align-last: justify;
+  text-align-last: justify; line-height: 22px
+}
+.namefield:first-child{
+    margin-top: 50px;
+}
+.phonemenu {
+    display: none;
+}
+
+@media screen and (max-width: 1020px) {
+    .container{
+        max-width: 767px;
+        margin: auto;
+    }
+    .headerBot{
+        max-width: 767px;
+    }
+    .headerMain{
+        max-width: 767px;
+    }
+    #canvas{
+        max-width: 767px;
+        max-height: 451.76px;
+    }
+    .canvas{
+        max-width: 767px;
+        max-height: 440.76px;
+    }
+    .strlk{
+        margin-left: 30px;
+    margin-top: 200px;
+    }
+    .strlk1{
+        margin-left: 727px;
+    margin-top: 200px;
+    }
+    .phone1{
+        width: 163px;
+        height: 345px;
+            margin-top: 40px;
+    margin-left: 83px;
+    }
+    .phone2{
+        width: 345px;
+        height: 163px;
+        margin-top: 133px;
+        margin-left: 318px;
+    }
+    .SliderBot{
+        max-width: 767px;
+    }
+    .services-block{
+
+    height: 596px;
+
+        max-width: 687px;
+    }
+    .services-block p{
+        max-width: 687px;
+        height: 72px;
+        line-height: 23px;
+    }
+    .services-columns{
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: -20px;
+    }
+    .services-bg-line{
+        max-width: 687px;
+    }
+    .pf{
+        max-width: 767px;
+        height: 1094px;
+    }
+    .art_gallery{
+        grid-template-columns: 216px 216px 216px ;
+        height: 794px;
+    }
+    .pfbot{
+         max-width: 767px;
+    }
+    .about_us{
+       max-width: 767px; 
+       max-height: 669px;
+    }
+    .Abdis{
+         max-width: 687px; 
+         height: 80px;
+    }
+    .us{
+        grid-template-columns: 219px 219px 219px;
+    }
+    .us .ava{
+        height:219px; 
+        width: 219px;
+    }
+    .us .info {
+        height:72px; 
+        width: 219px;
+    }
+    .us .links {
+        padding-top: 0px;
+    }
+    .quote {
+        height: 624px;
+         max-width: 767px;
+    }
+    .quote input{
+        width: 428px;
+    }
+    .quote form {
+        max-height:309px; 
+        max-width:442px;
+    }
+    .tofix {
+        width: 430px;
+    }
+    .cont_inf {
+
+    margin-top: 0px;
+
+        width: 221px;
+        height: 225px;
+    }
+    .cont_inf div{
+        width: 221px;
+        
+    }
+    .Qdis{
+        max-width: 687px;
+        height: 97px;
+    }
+    .namefield:first-child{
+        margin: 0px;
+
+    margin-bottom: 17px;
+
+    }
+.big {
+
+    padding-bottom: 141px;
+
+}
+#send {
+
+    margin-top: 22px;
+
+}
+.quotebot{
+    max-width: 767px;
+}
+footer {
+    max-width: 767px;
+}
+}
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 375px;
+        margin: auto;
+    }
+    .headerBot{
+        max-width: 375px;
+    }
+    .headerMain{
+        max-width: 375px;
+        max-height: 71px;
+    }
+    .logo{
+        margin-top: 20px;
+        padding-top: 0px;
+        margin-left: 148px;
+    }
+    #canvas{
+        max-width: 375px;
+        max-height: 217.59px;
+    }
+    .canvas{
+        max-width: 375px;
+        max-height: 217.59px;
+    }
+    header nav {
+       display: none;
+    }
+    .strlk{
+        margin-left: 9.76px;
+    margin-top: 98.26px;
+    }
+    .strlk1{
+        margin-left: 351.29px;
+    margin-top: 98.26px;
+    }
+    .phone1{
+        width: 81px;
+        height: 168px;
+            margin-top: 20px;
+        margin-left: 39px;
+    }
+    .phone2{
+        width: 169px;
+        height: 81px;
+       margin-top: 64px;
+        margin-left: 154px;
+    }
+    .SliderBot{
+        max-width: 375px;
+    }
+    .services-block{
+
+    height: 1030px;
+
+        max-width: 311px;
+        padding:32px;
+    }
+    .services-block h1{
+        margin: 0px;
+    }
+    .services-block > p:first-of-type {
+
+         margin-top: 10px;
+        
+    height: 214px;
+
+        max-width: 314px;
+        max-height: 214px;
+        line-height: 30px;
+    }
+    .services-columns{
+        display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: -20px;
+    }
+    .services-bg-line{
+        max-width: 375px;
+    }
+    .pf{
+        max-width: 375px;
+        height: 844px;
+    }
+    .Pfh1{
+
+    padding-left: 30px;
+
+    padding-top: 40px;
+
+    }
+    .Pfdis{
+
+    padding-left: 30px;
+
+        line-height: 30px;
+    width: 315px;
+    height: 96px;
+
+    }
+    .filter{
+
+    padding-left: 30px;
+
+    padding-top: 0px;
+
+    }
+    .art_gallery{
+
+    padding-left: 30px;
+
+        grid-template-columns: 151px 151px;
+        grid-template-rows: 128px;
+        height: 552px;
+    }
+    .art_gallery img{
+
+   
+    width: 151px;
+    height: 128px;
+
+    }
+    .pfbot{
+         max-width: 375px;
+    }
+    .about_us{
+       max-width: 375px; 
+       max-height: 1751px;
+       height: 1751px;
+    }
+    .Abh1{
+
+    padding-left: 30px;
+    padding-top: 40px;
+
+    }
+    .Abdis{
+        
+    padding-left: 30px;
+    width: 315px;
+    height: 220px;
+    line-height: 33px;
+    }
+    .name{
+        font-size:18px;
+
+    padding-top: 10px;
+
+    height: 20px;
+
+    }
+    
+    .us{
+
+    padding-top: 0px;
+    padding-left: 30px;
+
+        grid-template-columns: 314px ;
+    }
+    .us .ava{
+        height:314px; 
+        width: 314px;
+    }
+    .us .info {
+        width: 314px;
+
+    max-width: 314px;
+    max-height: 47px;
+    }
+    .us .links {
+        padding-top: 0px;
+
+    margin-bottom: 35px;
+
+    }
+    .about_us_bot{
+        width: 375px;
+    }
+    .quote {
+        height: 624px;
+         max-width: 757px;
+    }
+    .quote input{
+        width: 428px;
+    }
+    .quote form {
+        max-height:309px; 
+        max-width:442px;
+    }
+    .tofix {
+        width: 430px;
+    }
+    .cont_inf {
+
+    margin-top: 0px;
+
+        width: 221px;
+        height: 225px;
+    }
+    .cont_inf div{
+        width: 315px;
+        
+    }
+    .Qh1{
+
+    padding-left: 30px;
+    padding-top: 50px;
+
+    }
+    .quote{
+
+    width: 375px;
+    height: 969px;
+
+    }
+    .Qdis{
+        max-width: 314px;
+        height: 214px;
+        line-height: 32px;
+
+    }
+    .sho{
+
+    padding-left: 30px;
+
+    }
+    form .namefield{
+        margin: 0px;
+
+   
+    width: 315px;
+    height: 38px;
+
+    }
+    form .namefield{
+        margin: 0px;
+
+   
+    width: 315px;
+    height: 38px;
+
+    }
+    form .namefield{
+        margin: 0px;
+
+   
+    width: 315px;
+    height: 38px;
+
+    margin-bottom: 12px;
+
+
+    }
+form .big {
+    
+    width: 315px;
+
+    padding-bottom: 141px;
+
+}
+#send {
+
+    margin-top: 12px;
+
+    
+
+}
+.cont_inf{
+    
+    width: 315px;
+
+    margin-top: 27px;
+
+    float: left;
+}
+.cont-inf .extra {
+    text-decoration: none;
+    max-width: 315px;
+    
+    width: 315px;
+
+    height: 94px;
+}
+.quotebot{
+    max-width: 375px;
+}
+footer {
+    max-width: 375px;
+}
+.phonemenu {
+    display: block;
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 20px;
+}
+.Copyright{
+    display: none;
+}
+.links:last-child{
+padding-right: 110px;
+}
+}
+
